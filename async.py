@@ -8,7 +8,7 @@ async def main():
         page= await browser.new_page()
         await page.goto("http://whatsmyuseragent.org/")
         print(await page.title())
-        time.sleep(10)
+        time.sleep(15)
         await browser.close()
 
 
